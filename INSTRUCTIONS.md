@@ -2,7 +2,10 @@
 
 ## 📝 Your Notes
 
-Elaborate on your learnings here in `INSTRUCTIONS.md`
+git fetch upstream ;make sure you have all the upstream changes git checkout
+--no-track upstream/newbranch ;grab the new branch but don't track it git branch
+--set-upstream-to=origin/newbranch ;set the upstream repository to your origin
+git push ;push your new branch up to origin
 
 ## Background
 
