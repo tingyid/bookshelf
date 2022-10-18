@@ -95,7 +95,7 @@ https://kentcdodds.com/blog/authentication-in-react-applications
 Production deploys:
 
 - [Exercise](https://exercises-04-authentication.bookshelf.lol/exercise)
-- [Final](https://exercises-04-authentication.bookshelf.lol/)
+- [Final]()
 
 👨‍💼 Our users are excited about the demo, but they really want to start making
 their own reading lists out of those books. Our backend engineers have been
@@ -176,16 +176,8 @@ solve this loading state issue.
 She mentions you'll need to know that you can set the data directly:
 
 ```javascript
-const {
-  data,
-  error,
-  isIdle,
-  isLoading,
-  isSuccess,
-  isError,
-  run,
-  setData,
-} = useAsync()
+const {data, error, isIdle, isLoading, isSuccess, isError, run, setData} =
+  useAsync()
 
 const doSomething = () => somethingAsync().then(data => setData(data))
 ```
